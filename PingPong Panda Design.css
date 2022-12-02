@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar {
+  width: 100%;
+  background-color: lightslategray;
+  overflow: auto;
+}
+
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%;
+  text-align: center;
+   border-radius: 30px; 
+}
+
+
+.navbar a:hover {
+  background-color: coral;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/*............................... BOTTOM NAVBAR .............................................*/
+
+.navbar-expand-lg {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100;
+  border-radius: 15px;
+}
+
+.container-fluid{
+background-color: lightslategray;	
+}
