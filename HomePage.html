@@ -13,7 +13,6 @@
 
 <body>
 
- 
   <div class="uppernav">
 
     <div class="uppernav-middle">
@@ -29,6 +28,25 @@
   </div>
 
 
+  <div class="header" id="myheader">
+    <a href="#About" class="active"><b>About</b></a> 
+    <a href="#Comics"><b>Comic</b></a>
+    <a href="#Manga"><b>Manga</b></a>
+    <a href="#Magazines"><b>Magazines</b></a>
+    <a href="#News"><b>News</b></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("myheader");
+  if (x.className === "header") {
+    x.className += " responsive";
+  } else {
+    x.className = "header";
+  }
+}
+  </script>
 	
 </body>
 </html>
