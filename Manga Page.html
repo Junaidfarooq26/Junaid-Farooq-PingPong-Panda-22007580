@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Manga Page</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	
+<link rel="stylesheet" href="PingPong Panda Design.css">
+
+</head>
+
+<body>
+
+  <div class="uppernav">
+
+    <div class="uppernav-middle">
+      <a href="HomePage.html" class="active"><img src="Pingpong panda logo v3.2.png"></a>
+    </div>
+  
+    <a href="#account"><b>Account</b></a>
+  
+    <div class="uppernav-right">
+      <a href="#cart"><b>Cart</b></a>
+    </div>
+  
+  </div>
+
+
+  <div class="header" id="myheader">
+    <a href="About Us.html" class="active"><b>About</b></a> 
+    <a href="Comic Page.html"><b>Comic</b></a>
+    <a href="Manga Page.html"><b>Manga</b></a>
+    <a href="Magazine Page.html"><b>Magazines</b></a>
+    <a href="News Page.html"><b>News</b></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("myheader");
+  if (x.className === "header") {
+    x.className += " responsive";
+  } else {
+    x.className = "header";
+  }
+}
+  </script>
+	
+</body>
+</html>
