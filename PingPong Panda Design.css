@@ -10,7 +10,7 @@ body {
 /*.................................Top Navbar...................................*/
 
 .uppernav {
-  position: fixed;
+  position: relative;
   background-color: #606060FF;
   overflow: hidden;
   border-radius: 40px;
@@ -72,11 +72,12 @@ body {
 
 /*..................................... BOTTOM NAVBAR .........................................*/
 
+
 .header {
   background-color: #606060FF;
   overflow: hidden;
   position: fixed;
-  bottom: 0;
+  bottom: 4%;
   width: 100%;
   border-radius: 40px;
 }
