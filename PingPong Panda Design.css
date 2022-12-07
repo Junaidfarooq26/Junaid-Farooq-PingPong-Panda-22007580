@@ -14,8 +14,9 @@ body {
   background-color: #606060FF;
   overflow: hidden;
   border-radius: 40px;
-  top: 0;
+  top: 0%;
   width: 100%;
+  position: fixed;
 }
 
 .uppernav a {

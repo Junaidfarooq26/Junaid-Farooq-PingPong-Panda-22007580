@@ -11,6 +11,17 @@
 
 </head>
 
+<script>
+  function myFunction() {
+    var x = document.getElementById("myheader");
+    if (x.className === "header") {
+      x.className += " responsive";
+    } else {
+      x.className = "header";
+    }
+  }
+    </script>
+
 <body>
 
   <div class="uppernav">
@@ -36,17 +47,6 @@
     <a href="News Page.html"><b>News</b></a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
-
-  <script>
-function myFunction() {
-  var x = document.getElementById("myheader");
-  if (x.className === "header") {
-    x.className += " responsive";
-  } else {
-    x.className = "header";
-  }
-}
-  </script>
 	
 </body>
 </html>

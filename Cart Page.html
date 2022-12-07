@@ -9,6 +9,17 @@
 	
 <link rel="stylesheet" href="PingPong Panda Design.css">
 
+<script>
+  function myFunction() {
+    var x = document.getElementById("myheader");
+    if (x.className === "header") {
+      x.className += " responsive";
+    } else {
+      x.className = "header";
+    }
+  }
+    </script>
+
 </head>
 
 <body>
@@ -27,7 +38,6 @@
   
   </div>
 
-
   <div class="header" id="myheader">
     <a href="About Us.html" class="active"><b>About</b></a> 
     <a href="Comic Page.html"><b>Comic</b></a>
@@ -36,17 +46,6 @@
     <a href="News Page.html"><b>News</b></a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
-
-  <script>
-function myFunction() {
-  var x = document.getElementById("myheader");
-  if (x.className === "header") {
-    x.className += " responsive";
-  } else {
-    x.className = "header";
-  }
-}
-  </script>
 	
 </body>
 </html>
