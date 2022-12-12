@@ -5,6 +5,9 @@
 
 body {
   background-color: #B0B8B4FF;
+  padding-top: 15%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 /*.................................Top Navbar...................................*/
@@ -73,11 +76,51 @@ body {
   }
 }
 
-/*........................... Homepage Cover photo ..................................*/
+/*........................... side-by-side cards ..................................*/
 
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-/*.. The login/singup page HTML code was taken from an instagram user by the name of @Webdevlessons (https://www.instagram.com/webdevlessons/) .....................................*/
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/*.. The login/singup page CSS code was taken from an instagram user by the name of @Webdevlessons (https://www.instagram.com/webdevlessons/) .....................................*/
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 
@@ -364,6 +407,14 @@ h6 span {
   display: block;
 }
 
+/*......................................... Divider .....................................*/
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+}
 
 /*..................................... BOTTOM NAVBAR .........................................*/
 
@@ -371,8 +422,8 @@ h6 span {
   background-color: #606060FF;
   overflow: hidden;
   position: fixed;
-  bottom: 11%;
-  width: 85.5%;
+  bottom: 5%;
+  width: 73.5%;
   border-radius: 40px;
   left: 50%;
   transform: translateX(-50%);
@@ -385,7 +436,7 @@ h6 span {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 40px 50px;
+  padding: 20px 30px;
   text-decoration: none;
   font-size: 30px;
   border-radius: 40px;
