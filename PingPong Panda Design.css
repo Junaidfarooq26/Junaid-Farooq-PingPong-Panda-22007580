@@ -73,7 +73,11 @@ body {
   }
 }
 
-/*.............................. Picture Slider .....................................*/
+/*........................... Homepage Cover photo ..................................*/
+
+
+
+/*.. The login/singup page HTML code was taken from an instagram user by the name of @Webdevlessons (https://www.instagram.com/webdevlessons/) .....................................*/
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 
@@ -423,7 +427,7 @@ h6 span {
 }
 
 
-/*...................................Footer....................*/
+/*............................Footer....................*/
 
 footer {
   text-align: center;
