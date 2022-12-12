@@ -10,7 +10,7 @@ body {
 /*.................................Top Navbar...................................*/
 
 .uppernav {
-  position: relative;
+  position: fixed;
   background-color: #606060FF;
   overflow: hidden;
   border-radius: 40px;
@@ -18,6 +18,7 @@ body {
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 1;
 }
 
 .uppernav a {
@@ -365,12 +366,13 @@ h6 span {
 .header {
   background-color: #606060FF;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   bottom: 11%;
-  width: 100%;
+  width: 85.5%;
   border-radius: 40px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 1;
   
 }
 
@@ -432,5 +434,4 @@ footer {
   position: absolute;
   width: 100%;
   height: 10%;
-
 }
