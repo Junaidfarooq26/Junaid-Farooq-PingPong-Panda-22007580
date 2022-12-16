@@ -28,7 +28,7 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 40px 50px;
+  padding: 30px 50px;
   text-decoration: none;
   font-size: 30px;
    border-radius: 40px;
@@ -85,19 +85,17 @@ body {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
+  
 }
 
 .column {
   float: left;
-  width: 25%;
   padding: 0 10px;
 }
 
 .row {margin: 0 -5px;}
 
 .row:after {
-  content: "";
   display: table;
   clear: both;
 }
@@ -106,17 +104,24 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #000000;
+  background-color: #eecfcf;
   display:inline-block;
+  color: black;
 }
 
 
 @media screen and (max-width: 1000px) {
   .column {
     width: 100%;
-    display:;
     margin-bottom: 20px;
   }
+}
+
+.pic {
+
+  padding-left: 30%;
+  padding-right: 30%;
+
 }
 
 /*.. The login/singup page CSS code was taken from an instagram user by the name of @Webdevlessons (https://www.instagram.com/webdevlessons/) .....................................*/
