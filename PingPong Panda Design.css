@@ -79,52 +79,35 @@ body {
 
 /*........................... side-by-side cards ..................................*/
 
-* {
-  box-sizing: border-box;
+.feature card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  
+/* On mouse-over, add a deeper shadow */
+.feature card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+/* Add some padding inside the card container */
 .column {
-  float: left;
-  padding: 0 10px;
+  padding: 2px 16px;
 }
 
-.row {margin: 0 -5px;}
-
-.row:after {
-  display: table;
-  clear: both;
+.feature card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #eecfcf;
-  display:inline-block;
-  color: black;
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
 }
 
 
-@media screen and (max-width: 1000px) {
-  .column {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-.pic {
-
-  padding-left: 30%;
-  padding-right: 30%;
-
-}
-
-/*.. The login/singup page CSS code was taken from an instagram user by the name of @Webdevlessons (https://www.instagram.com/webdevlessons/) .....................................*/
+/*........ The login/singup page CSS code was taken from an instagram user by the name of @Webdevlessons (https://www.instagram.com/webdevlessons/) .....................................*/
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 
@@ -480,7 +463,6 @@ hr.rounded {
     text-align: left;
   }
 }
-
 
 /*............................Footer....................*/
 
