@@ -4,7 +4,7 @@
 /*...............................Body Color....................................*/
 
 body {
-  background-color: #B0B8B4FF;
+  background-color: #195190FF;
   padding-top: 15%;
   padding-left: 4%;
   padding-right: 4%;
@@ -14,7 +14,7 @@ body {
 
 .uppernav {
   position: fixed;
-  background-color: #606060FF;
+  background-color: #603F83FF;
   overflow: hidden;
   border-radius: 40px;
   top: 0%;
@@ -128,7 +128,6 @@ body {
   font-size: 20px;
   line-height: 1.7;
   color: #c4c3ca;
-  background-color: #1f2029;
   overflow-x: hidden;
 }
 a {
@@ -417,7 +416,7 @@ hr.rounded {
 /*..................................... BOTTOM NAVBAR .........................................*/
 
 .header {
-  background-color: #ffa07a;
+  background-color: #603F83FF;
   overflow: hidden;
   position: fixed;
   bottom: 5%;
@@ -426,7 +425,6 @@ hr.rounded {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  
 }
 
 .header a {
