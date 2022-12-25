@@ -91,6 +91,7 @@ body {
 .column {
   float: left;
   padding: 0 10px;
+  
 }
 
 .row {margin: 0 -5px;}
@@ -109,19 +110,12 @@ body {
   color: black;
 }
 
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 200px) {
   .column {
     width: 100%;
     margin-bottom: 20px;
+    display: block;
   }
-}
-
-.pic {
-
-  padding-left: 30%;
-  padding-right: 30%;
-
 }
 
 /*........ The login/singup page CSS code was taken from an instagram user by the name of @Webdevlessons (https://www.instagram.com/webdevlessons/) .....................................*/
@@ -423,7 +417,7 @@ hr.rounded {
 /*..................................... BOTTOM NAVBAR .........................................*/
 
 .header {
-  background-color: #606060FF;
+  background-color: #ffa07a;
   overflow: hidden;
   position: fixed;
   bottom: 5%;
@@ -442,7 +436,7 @@ hr.rounded {
   text-align: center;
   padding: 20px 30px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 35px;
   border-radius: 40px;
 }
 
