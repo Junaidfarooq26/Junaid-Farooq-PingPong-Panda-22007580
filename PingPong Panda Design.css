@@ -85,7 +85,6 @@ body {
 
 /* Clear floats after the columns */
 .rack:after {
-  content: "";
   display: table;
   clear: both;
 }
@@ -516,9 +515,8 @@ hr.rounded {
 /*............................Footer....................*/
 
 footer {
-
   position: float;
-  text-align: center;
+  text-align: left;
   padding: 200px;
   background-color: DarkSalmon;
   color: white;
