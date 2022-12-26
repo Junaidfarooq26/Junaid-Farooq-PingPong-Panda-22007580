@@ -76,6 +76,46 @@ body {
   }
 }
 
+/*..............................New Release card css................................*/
+
+.new {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.rack:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rack {
+  display: flex;
+}
+
+.new {
+  flex: 50%;
+}
+
+.new {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .new {
+    width: 100%;
+  }
+}
 
 /*........................... side-by-side cards ..................................*/
 
