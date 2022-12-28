@@ -83,7 +83,6 @@ body {
   width: 50%;
 }
 
-/* Clear floats after the columns */
 .rack:after {
   display: table;
   clear: both;
@@ -101,15 +100,6 @@ body {
   float: left;
 }
 
-.left {
-  width: 25%;
-}
-
-.right {
-  width: 75%;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1000px) {
   .new {
     width: 100%;
@@ -443,7 +433,7 @@ h6 span {
   display: block;
 }
 
-/*................................Product Card...........................................*/
+/*...................................Product Card...........................................*/
 
 .product {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -451,13 +441,15 @@ h6 span {
   margin: auto;
   text-align: center;
   font-family: arial;
-  color: black;
   background-color: wheat;
+  color: black;
+  display: inline-block;
+  margin-bottom: 70px !important;
 }
 
 .price {
   color: black;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .product button {
@@ -475,7 +467,6 @@ h6 span {
 .product button:hover {
   opacity: 0.7;
 }
-
 
 /*......................................... Divider .....................................*/
 
