@@ -241,7 +241,7 @@ body {
 /*......................................... Divider .....................................*/
 
 hr.rounded {
-  border-top: 8px solid #bbb;
+  border-top: 8px solid black;
   border-radius: 5px;
   width: 100%;
   position: relative;
