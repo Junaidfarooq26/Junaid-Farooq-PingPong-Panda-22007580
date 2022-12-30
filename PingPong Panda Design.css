@@ -151,7 +151,7 @@ body {
 
 
 
-/*.......Cart CSS code was taken from W3school website (https://www.w3schools.com/howto/howto_css_checkout_form.asp).....................................*/
+/*................................................cart css.....................................*/
 
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -223,7 +223,7 @@ label {
   background-color: #45a049;
 }
 
-span.pri {
+span.price {
   float: right;
   color: grey;
 }
