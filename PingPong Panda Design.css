@@ -121,6 +121,36 @@ hr.rounded {
   }
 }
 
+/*...................................Product Card...........................................*/
+
+.product {
+  max-width: 380px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: wheat;
+  color: black;
+  display: inline-block;
+  margin-bottom: 70px !important;
+}
+
+.price {
+  color: black;
+  font-size: 45px;
+}
+
+.product button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 35px;
+}
+
 /*........................................ side-by-side cards ........................................*/
 
 * {
@@ -213,7 +243,6 @@ hr.rounded {
   float: right;
   margin-left: 5px;
 }
-
 
 /*..................................... BOTTOM NAVBAR .........................................*/
 
