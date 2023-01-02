@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*...............................Body Color....................................*/
+/*.....................................Body Color.......................................*/
 
 body {
   background-color: #195190FF;
@@ -10,7 +10,7 @@ body {
   padding-right: 4%;
 }
 
-/*.................................Top Navbar...................................*/
+/*........................................Top Navbar.............................................*/
 
 .uppernav {
   position: fixed;
@@ -76,13 +76,22 @@ body {
   }
 }
 
-/*.....................................Video Banner.............................*/
+/*.......................................Video Banner........................................*/
 
 #myVideo {
   position:sticky;
 }
 
-/*..............................New Release card css................................*/
+/*............................................ Divider .........................................*/
+
+hr.rounded {
+  border-top: 8px solid black;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+}
+
+/*...................................New Release card css....................................*/
 
 .new {
   float: left;
@@ -112,7 +121,7 @@ body {
   }
 }
 
-/*........................... side-by-side cards ..................................*/
+/*........................................ side-by-side cards ........................................*/
 
 * {
   box-sizing: border-box;
@@ -153,32 +162,32 @@ body {
   }
 }
 
-/*........ The login/singup page CSS code was taken from an instagram user by the name of @Webdevlessons (https://www.instagram.com/webdevlessons/) .....................................*/
+/*................................ The login/singup page CSS.....................................*/
 
 
 
-/*................................................cart css.....................................*/
+/*..Cart CSS was taken from W3School Website (https://www.w3schools.com/howto/howto_css_checkout_form.asp).....................................*/
 
 .row {
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 -16px;
 }
 
 .col-25 {
-  -ms-flex: 25%; /* IE10 */
+  -ms-flex: 25%;
   flex: 25%;
 }
 
 .col-50 {
-  -ms-flex: 50%; /* IE10 */
+  -ms-flex: 50%;
   flex: 50%;
 }
 
 .col-75 {
-  -ms-flex: 75%; /* IE10 */
+  -ms-flex: 75%;
   flex: 75%;
 }
 
@@ -189,10 +198,11 @@ body {
 }
 
 .container {
-  background-color: #f2f2f2;
+  background-color: #CDB599FF;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
-  border-radius: 3px;
+  border-radius: 40px;
+  font-size: 30px;
 }
 
 input[type=text] {
@@ -200,7 +210,7 @@ input[type=text] {
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 40px;
 }
 
 label {
@@ -211,22 +221,18 @@ label {
 .icon-container {
   margin-bottom: 20px;
   padding: 7px 0;
-  font-size: 24px;
 }
 
 .btn {
+  background-color: black;
   color: white;
   padding: 12px;
   margin: 10px 0;
   border: none;
   width: 100%;
-  border-radius: 3px;
+  border-radius: 40px;
   cursor: pointer;
-  font-size: 17px;
-}
-
-.btn:hover {
-  background-color: #45a049;
+  font-size: 30px;
 }
 
 span.price {
@@ -234,86 +240,13 @@ span.price {
   color: grey;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 10000px) {
   .row {
     flex-direction: column-reverse;
   }
   .col-25 {
     margin-bottom: 20px;
   }
-}
-
-/*...................................Product Card...........................................*/
-
-.product {
-  max-width: 380px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color: wheat;
-  color: black;
-  display: inline-block;
-  margin-bottom: 70px !important;
-}
-
-.price {
-  color: black;
-  font-size: 45px;
-}
-
-.product button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 35px;
-}
-
-/*......................................... Divider .....................................*/
-
-hr.rounded {
-  border-top: 8px solid black;
-  border-radius: 5px;
-  width: 100%;
-  position: relative;
-}
-
-/*.....................................contact us form..........................................*/
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 40px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical
-}
-
-input[type=submit] {
-  background-color: orange;
-  color: white;
-  padding: 20px 40px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 280px;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 20px;
-  background-color: #f2f2f2;
-  padding: 80px;
-  color: black;
 }
 
 /*.................................collapsible...................................*/
