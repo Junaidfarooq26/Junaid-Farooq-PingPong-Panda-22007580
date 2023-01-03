@@ -229,7 +229,38 @@ input[type=submit]:hover {
 
 /*................................ The login/singup page CSS.....................................*/
 
+button {   
+  background-color: black;   
+  width: 100%;  
+   color: white;   
+   padding: 15px;   
+   margin: 10px 0px;   
+   border: none;   
+   cursor: pointer;   
+   border-radius: 40px;
+    }
 
+input[type=text], input[type=password] {   
+   width: 100%;   
+   margin: 8px 0;  
+   padding: 12px 20px;   
+   display: inline-block;   
+   border: 2px solid green;   
+   box-sizing: border-box; 
+   border-radius: 50px;
+}  
+
+button:hover {   
+   opacity: 0.7;   
+}   
+   
+.account {   
+   padding: 40px;   
+   background-color: #949398FF; 
+   border-radius: 50px;
+   font-size: 200%;
+   color: white;
+} 
 
 /*..Cart CSS was taken from W3School Website (https://www.w3schools.com/howto/howto_css_checkout_form.asp).....................................*/
 

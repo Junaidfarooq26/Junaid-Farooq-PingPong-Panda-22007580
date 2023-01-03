@@ -112,6 +112,25 @@
     <p><button>Add to Cart</button></p>
   </div>
 
+<? echo
+
+if(isset($_POST['add']) and $_POST['add'] == 'yes') {
+  if (!isset($_SESSION['cart'])) {
+      $_SESSION['cart']=array();
+  }
+  array_push($_SESSION['cart'], $_POST);
+}
+
+
+//submit selected items
+foreach ($_SESSION['cart'] as $cart_item) {
+  $pid=scrub($cart_item['product_ID']);
+  $amount=scrub($cart_item['amount']);
+  $inserted = "INSERT INTO orders (user, product_id, amount, when) VALUES (".$uid.", ".$pid.", ".$amount.", NOW())";
+  $result3 = mysqli_query($cxn,$inserted);
+
+>
+
   <br>
 
   <!---------------------------------- Divider ---------------------------------->
