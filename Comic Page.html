@@ -97,7 +97,7 @@
   </div>
 
   <div class="product">
-    <img src="Ant-man comic.jpg" alt="Ant-Man" style="width:100%">
+    <img src="Ant-man comic.jpg" alt="Ant-Man" style="width:100%;">
     <h1>Ant-Man Vol.1</h1>
     <hr class="rounded">
     <p class="price">$34.99</p>
@@ -105,31 +105,12 @@
   </div>
 
   <div class="product" style="float: right;">
-    <img src="wolverine.jpg" alt="Ms Marvel" style="width:100%">
+    <img src="wolverine.jpg" alt="wolverine" style="width:100%">
     <h1>Marvel Wolverine Vol.028</h1>
     <hr class="rounded">
     <p class="price">$14.99</p>
     <p><button>Add to Cart</button></p>
   </div>
-
-<? echo
-
-if(isset($_POST['add']) and $_POST['add'] == 'yes') {
-  if (!isset($_SESSION['cart'])) {
-      $_SESSION['cart']=array();
-  }
-  array_push($_SESSION['cart'], $_POST);
-}
-
-
-//submit selected items
-foreach ($_SESSION['cart'] as $cart_item) {
-  $pid=scrub($cart_item['product_ID']);
-  $amount=scrub($cart_item['amount']);
-  $inserted = "INSERT INTO orders (user, product_id, amount, when) VALUES (".$uid.", ".$pid.", ".$amount.", NOW())";
-  $result3 = mysqli_query($cxn,$inserted);
-
->
 
   <br>
 
@@ -146,7 +127,7 @@ foreach ($_SESSION['cart'] as $cart_item) {
   <br>
 
   <div class="product">
-    <img src="batmanamdsuperman.jpg" alt="Ant-Man" style="width:100%">
+    <img src="batmanamdsuperman.jpg" alt="batmanandsuperman" style="width:100%">
     <h1>BatMan.SuperMan: World's Finest</h1>
     <hr class="rounded">
     <p class="price">Free</p>
@@ -154,7 +135,7 @@ foreach ($_SESSION['cart'] as $cart_item) {
   </div>
 
   <div class="product" style="float: right;">
-    <img src="blue beetle.jpg" alt="Ms Marvel" style="width:100%">
+    <img src="blue beetle.jpg" alt="blue beetle" style="width:100%">
     <h1>Blue Beetle: Graduation Day</h1>
     <hr class="rounded">
     <p class="price">$19.99</p>
@@ -162,7 +143,7 @@ foreach ($_SESSION['cart'] as $cart_item) {
   </div>
 
   <div class="product">
-    <img src="BMandcw.jpg" alt="Ant-Man" style="width:100%">
+    <img src="BMandcw.jpg" alt="bmandcw" style="width:100%">
     <h1>BatMan And CatWoman</h1>
     <hr class="rounded">
     <p class="price">$24.99</p>
@@ -170,7 +151,7 @@ foreach ($_SESSION['cart'] as $cart_item) {
   </div>
 
   <div class="product" style="float: right;">
-    <img src="DCvsvamp.jpg" alt="Ms Marvel" style="width:100%">
+    <img src="DCvsvamp.jpg" alt="DCvsvamp" style="width:100%">
     <h1>DC vs Vampires 12 of 12</h1>
     <hr class="rounded">
     <p class="price">$29.99</p>
@@ -178,7 +159,7 @@ foreach ($_SESSION['cart'] as $cart_item) {
   </div>
 
   <div class="product">
-    <img src="DC_Comics_Presents_1.jpg" alt="Ant-Man" style="width:100%">
+    <img src="DC_Comics_Presents_1.jpg" alt="smandflash" style="width:100%">
     <h1>DC SuperMan and Flash</h1>
     <hr class="rounded">
     <p class="price">$35.99</p>
