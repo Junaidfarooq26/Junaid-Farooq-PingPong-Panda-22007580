@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Comic Page</title>
+<title>Magazine Page</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -43,7 +43,7 @@
   <!--------------------------- Comic Cover photo ------------------------------------------>
 
   <div class="Banner">
-		<a href="" class="active"><img src="Comic page cover.png" alt="banner" style="width: 100%" height="400"></a>
+		<a href="" class="active"><img src="magazine page.png" alt="banner" style="width: 100%" height="400"></a>
 		<div class="centered">
 		</div>
 	</div>
@@ -54,59 +54,73 @@
  
      <hr class="rounded">
 
-  <!---------------------------------Marvel Comic Product's section-------------------------------------->
+  <!---------------------------------vogue magazine section-------------------------------------->
    
   <br>
 
-  <a id="marvel">
-  <h1 style="color:white"><b><strong>Marvel Comics</strong></b></h1>
+  <a id="vogue">
+  <h1 style="color:white"><b><strong>Vogue Magaziness</strong></b></h1>
   </a>
 
   <br>
 
   <div class="product">
-    <img src="spider-man.jpg" alt="spider-man" style="width:100%">
-    <h1>MurderWorld: SpiderMan Vol.1</h1>
+    <img src="vogue.png" alt="Vogue1" style="width:100%">
+    <h1>Vogue Dec'22 Issue</h1>
     <hr class="rounded">
     <p class="price">$24.99</p>
     <p><button>Add to Cart</button></p>
   </div>
 
   <div class="product" style="float: right;">
-    <img src="ms marvel.jpg" alt="Ms Marvel" style="width:100%">
-    <h1>DarkWeb: Ms. Marvel Vol.1</h1>
+    <img src="vogue2.png" alt="vogue2" style="width:100%">
+    <h1>Vogue Oct'22 Issue</h1>
     <hr class="rounded">
-    <p class="price">$22.89</p>
+    <p class="price">$24.99</p>
     <p><button>Add to Cart</button></p>
   </div>
 
+    <!---------------------------------- Divider ---------------------------------->
+ 
+    <hr class="rounded">
+
+    <!---------------------------------Empire magazine section-------------------------------------->
+     
+    <br>
+  
+    <a id="empire">
+    <h1 style="color:white"><b><strong>Empire Magazines</strong></b></h1>
+    </a>
+
+    <br>
+
   <div class="product">
-    <img src="avengers.jpg" alt="avengers" style="width:100%">
-    <h1>Avengers Forever Vol.12</h1>
+    <img src="empire jan 23.jpg" alt="emp1" style="width:100%">
+    <h1>Empire Feb'23 Issue Feat. Harrison Ford</h1>
     <hr class="rounded">
     <p class="price">$29.99</p>
     <p><button>Add to Cart</button></p>
   </div>
 
   <div class="product" style="float: right;">
-    <img src="the vitals marvel.jpg" alt="vitals" style="width:100%">
-    <h1>The Vitals: True EMS Stories</h1>
+    <img src="empire summer 22.jpg" alt="emp2" style="width:100%">
+    <h1>Empire Summer'22 Issue</h1>
     <hr class="rounded">
     <p class="price">Free</p>
     <p><button>Add to Cart</button></p>
   </div>
 
   <div class="product">
-    <img src="Ant-man comic.jpg" alt="Ant-Man" style="width:100%;">
-    <h1>Ant-Man Vol.1</h1>
+    <img src="empire.jpg" alt="emp3" style="width:100%">
+    <h1>Empire Jan'23 The Greatest Actor Issue</h1>
     <hr class="rounded">
-    <p class="price">$34.99</p>
+    <p class="price">$22.99</p>
     <p><button>Add to Cart</button></p>
   </div>
 
   <div class="product" style="float: right;">
-    <img src="wolverine.jpg" alt="wolverine" style="width:100%">
-    <h1>Marvel Wolverine Vol.028</h1>
+    <img src="empire sep 22.jpg" alt="emp4" style="width:100%">
+    <h1>Empire Sep'22 Issue Feat. HOD Cast</h1>
     <hr class="rounded">
     <p class="price">$14.99</p>
     <p><button>Add to Cart</button></p>
@@ -118,59 +132,29 @@
  
      <hr class="rounded">
 
-  <!---------------------------------Marvel Comic Product's section-------------------------------------->
+  <!---------------------------------times magazine section-------------------------------------->
    
   <br>
-  <a id="dc">
-  <h1 style="color:white"><b><strong>DC Comics</strong></b></h1>
+
+  <a id="time">
+  <h1 style="color:white"><b><strong>Times Magazines</strong></b></h1>
   </a>
+
   <br>
 
   <div class="product">
-    <img src="batmanamdsuperman.jpg" alt="batmanandsuperman" style="width:100%">
-    <h1>BatMan.SuperMan: World's Finest</h1>
+    <img src="person of the year.png" alt="time1" style="width:100%">
+    <h1>Times Person of the Year Issue</h1>
     <hr class="rounded">
     <p class="price">Free</p>
     <p><button>Add to Cart</button></p>
   </div>
 
   <div class="product" style="float: right;">
-    <img src="blue beetle.jpg" alt="blue beetle" style="width:100%">
-    <h1>Blue Beetle: Graduation Day</h1>
+    <img src="time dec 12.jpg" alt="time2" style="width:100%">
+    <h1>Times interview with Imran Khan Issue</h1>
     <hr class="rounded">
     <p class="price">$19.99</p>
-    <p><button>Add to Cart</button></p>
-  </div>
-
-  <div class="product">
-    <img src="BMandcw.jpg" alt="bmandcw" style="width:100%">
-    <h1>BatMan And CatWoman</h1>
-    <hr class="rounded">
-    <p class="price">$24.99</p>
-    <p><button>Add to Cart</button></p>
-  </div>
-
-  <div class="product" style="float: right;">
-    <img src="DCvsvamp.jpg" alt="DCvsvamp" style="width:100%">
-    <h1>DC vs Vampires 12 of 12</h1>
-    <hr class="rounded">
-    <p class="price">$29.99</p>
-    <p><button>Add to Cart</button></p>
-  </div>
-
-  <div class="product">
-    <img src="DC_Comics_Presents_1.jpg" alt="smandflash" style="width:100%">
-    <h1>DC SuperMan and Flash</h1>
-    <hr class="rounded">
-    <p class="price">$35.99</p>
-    <p><button>Add to Cart</button></p>
-  </div>
-
-  <div class="product" style="float: right;">
-    <img src="hq.jpg" alt="hq" style="width:100%">
-    <h1>DC Harley Quinn Vol.25</h1>
-    <hr class="rounded">
-    <p class="price">$14.99</p>
     <p><button>Add to Cart</button></p>
   </div>
 

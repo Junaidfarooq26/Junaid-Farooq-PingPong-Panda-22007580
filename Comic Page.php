@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Manga Page</title>
+<title>Comic Page</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -43,7 +43,7 @@
   <!--------------------------- Comic Cover photo ------------------------------------------>
 
   <div class="Banner">
-		<a href="" class="active"><img src="manga baner.png" alt="banner" style="width: 100%" height="400"></a>
+		<a href="" class="active"><img src="Comic page cover.png" alt="banner" style="width: 100%" height="400"></a>
 		<div class="centered">
 		</div>
 	</div>
@@ -58,47 +58,57 @@
    
   <br>
 
-  <h1 style="color:white"><b><strong>Mangas</strong></b></h1>
+  <a id="marvel">
+  <h1 style="color:white"><b><strong>Marvel Comics</strong></b></h1>
+  </a>
 
   <br>
 
   <div class="product">
-    <img src="ChainsawMan2.jpg" alt="chman" style="width:100%">
-    <h1>ChainSaw Man Volume.20</h1>
+    <img src="spider-man.jpg" alt="spider-man" style="width:100%">
+    <h1>MurderWorld: SpiderMan Vol.1</h1>
     <hr class="rounded">
-    <p class="price">$19.99</p>
+    <p class="price">$24.99</p>
     <p><button>Add to Cart</button></p>
   </div>
 
   <div class="product" style="float: right;">
-    <img src="demon slayer.jfif" alt="demon" style="width:100%">
-    <h1>Demon Slayer Volume.08</h1>
+    <img src="ms marvel.jpg" alt="Ms Marvel" style="width:100%">
+    <h1>DarkWeb: Ms. Marvel Vol.1</h1>
     <hr class="rounded">
-    <p class="price">$22.99</p>
+    <p class="price">$22.89</p>
     <p><button>Add to Cart</button></p>
   </div>
 
   <div class="product">
-    <img src="naruto.jpg" alt="naruto" style="width:100%">
-    <h1>Naruto Volume.01 by masashi Kishimoto</h1>
+    <img src="avengers.jpg" alt="avengers" style="width:100%">
+    <h1>Avengers Forever Vol.12</h1>
     <hr class="rounded">
-    <p class="price">Free</p>
+    <p class="price">$29.99</p>
     <p><button>Add to Cart</button></p>
   </div>
 
   <div class="product" style="float: right;">
-    <img src="note.jpg" alt="note" style="width:100%">
-    <h1>Death Note Volume.04 By Tsugumi Ohba</h1>
+    <img src="the vitals marvel.jpg" alt="vitals" style="width:100%">
+    <h1>The Vitals: True EMS Stories</h1>
     <hr class="rounded">
     <p class="price">Free</p>
     <p><button>Add to Cart</button></p>
   </div>
 
-  <div class="product" style="margin-left: 260px;">
-    <img src="hero.jpg" alt="hero" style="width:100%">
-    <h1>My Hero Academia Volume.01</h1>
+  <div class="product">
+    <img src="Ant-man comic.jpg" alt="Ant-Man" style="width:100%;">
+    <h1>Ant-Man Vol.1</h1>
     <hr class="rounded">
-    <p class="price">$25.99</p>
+    <p class="price">$34.99</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+  <div class="product" style="float: right;">
+    <img src="wolverine.jpg" alt="wolverine" style="width:100%">
+    <h1>Marvel Wolverine Vol.028</h1>
+    <hr class="rounded">
+    <p class="price">$14.99</p>
     <p><button>Add to Cart</button></p>
   </div>
 
@@ -108,8 +118,69 @@
  
      <hr class="rounded">
 
+  <!---------------------------------DC Comic section-------------------------------------->
+   
+  <br>
+  <a id="dc">
+  <h1 style="color:white"><b><strong>DC Comics</strong></b></h1>
+  </a>
+  <br>
 
-  <!-------------------------------Bottom Navbar------------------------------------------>   
+  <div class="product">
+    <img src="batmanamdsuperman.jpg" alt="batmanandsuperman" style="width:100%">
+    <h1>BatMan.SuperMan: World's Finest</h1>
+    <hr class="rounded">
+    <p class="price">Free</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+  <div class="product" style="float: right;">
+    <img src="blue beetle.jpg" alt="blue beetle" style="width:100%">
+    <h1>Blue Beetle: Graduation Day</h1>
+    <hr class="rounded">
+    <p class="price">$19.99</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+  <div class="product">
+    <img src="BMandcw.jpg" alt="bmandcw" style="width:100%">
+    <h1>BatMan And CatWoman</h1>
+    <hr class="rounded">
+    <p class="price">$24.99</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+  <div class="product" style="float: right;">
+    <img src="DCvsvamp.jpg" alt="DCvsvamp" style="width:100%">
+    <h1>DC vs Vampires 12 of 12</h1>
+    <hr class="rounded">
+    <p class="price">$29.99</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+  <div class="product">
+    <img src="DC_Comics_Presents_1.jpg" alt="smandflash" style="width:100%">
+    <h1>DC SuperMan and Flash</h1>
+    <hr class="rounded">
+    <p class="price">$35.99</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+  <div class="product" style="float: right;">
+    <img src="hq.jpg" alt="hq" style="width:100%">
+    <h1>DC Harley Quinn Vol.25</h1>
+    <hr class="rounded">
+    <p class="price">$14.99</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+  <br>
+
+    <!---------------------------------- Divider ---------------------------------->
+ 
+    <hr class="rounded">
+
+  <!-------------------------------- Bottom Navbar ------------------------------------------>
 
   <div class="header" id="myheader">
     <a href="About Us.html" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 

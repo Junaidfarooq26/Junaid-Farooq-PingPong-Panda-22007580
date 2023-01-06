@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Account page</title>
+<title>About Us</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -18,14 +18,11 @@
       x.className = "header";
     }
   }
-
-</script>
+    </script>
 
 </head>
 
-<body> 
-
-  <!---------------------------------- Upper navbar Code ---------------------------------------> 
+<body>
 
   <div class="uppernav">
 
@@ -41,79 +38,59 @@
   
   </div>
 
-  <br>
+    <!--------------------------- About us Cover photo ------------------------------------------>
 
-      <!--------------------------- Comic Cover photo ------------------------------------------>
-
-      <div class="Banner">
-        <a href="" class="active"><img src="account page cover.png" alt="banner" style="width: 100%" height="300"></a>
-        <div class="centered">
-        </div>
+    <div class="Banner">
+      <a href="" class="active"><img src="about ppp page cover.png" alt="banner" style="width: 100%" height="400"></a>
+      <div class="centered">
       </div>
-    
-      <br>
-
-  <!---------------------------------- Divider ---------------------------------->
+    </div>
   
-     <hr class="rounded">
+    <br>
+  
+   <!---------------------------------- Divider ---------------------------------->
+  
+      <hr class="rounded">
+  
+      <br>
+  
+  <!------------------------------About us info------------------------------------------>
+  
+  <h1 style="color:black"><strong><b>Company Info</b></strong></h1>
   
   <br>
 
-<!--------------------- The login page HTML code ---------------------------------------> 
+  <p style="color:white; font-size: 35px;">PingPong Panda, a wholly-owned subsidiary of 
+    King Kong Fu, is one of the world's most prominent E-commerce entertainment 
+    companies, built on a proven library of more than 8,000 Magazines, Comics and Mangas 
+    featured in a variety of media over five years. King Kong Fu. utilizes its Products 
+    in entertainment and publishing.</p>
 
-<center><h1 style="font-size: 60px; color: white; background-color: #E3CD81FF; border-radius: 40px; padding: 20px;">Login</h1></center> 
-<br>  
-<form>  
-    <div class="account">   
-        <label>Username : </label>   
-        <input type="text" placeholder="Enter Username" name="username" required>  
-        <label>Password : </label>   
-        <input type="password" placeholder="Enter Password" name="password" required>  
-        <button type="submit">Login</button>         
-    </div>   
-</form>  
-
-<br>
-
-<!---------------------------------- Divider ---------------------------------->
+    <br>
   
-<br>
+    <!---------------------------------- Divider ---------------------------------->
+   
+       <hr class="rounded">
+   
+       <br>
 
-<hr class="rounded">
+    <!--------------------------------------------Location---------------------------------------->
+
+    <h1 style="color:black"><strong><b>Corporate Headquarters</b></strong></h1>
+
+    <br>
+   
+    <p style="color:white; font-size: 35px;">De Havilland Campus, Mosquito Way,</p>
+    <p style="color: white; font-size: 35px;">Hatfield AL10 9EU, United Kingdom</p>
+    
   
-<br>
-
-<!--------------------- The singup page HTML code ---------------------------------------> 
-
-<center><h1 style="font-size: 60px; color: white; background-color: #E3CD81FF; border-radius: 40px; padding: 20px;">Register</h1></center> 
-<br>  
-<form>  
-    <div class="account">   
-        <label>Username : </label>   
-        <input type="text" placeholder="Enter Username" name="username" required>  
-        <label>E-mail : </label>   
-        <input style="width: 100%; border-radius: 40px;" type="email" placeholder="Enter Email" name="email" required> 
-        <label>Password : </label>   
-        <input type="password" placeholder="Enter Password" name="password" required>  
-        <label>Re-Type Password : </label>   
-        <input type="Password" placeholder="Re-Type Password" name="Re-type Password" required>  
-        <button type="submit">Register</button>          
-    </div>   
-</form>  
-
-<br>
-
-<!---------------------------------- Divider ---------------------------------->
+    <br>
   
-<br>
+    <!---------------------------------- Divider ---------------------------------->
+   
+       <hr class="rounded">
 
-<hr class="rounded">
-  
-<br>
-
-<!------------------------------------- Bottom navbar Code ----------------------------------------------> 
-
-<div class="header" id="myheader">
+  <div class="header" id="myheader">
     <a href="About Us.html" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 
     <a href="Comic Page.html"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
     <a href="Manga Page.html"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
@@ -121,8 +98,8 @@
     <a href="News Page.html"><img src="news.png" width="50" height="50"> <b>News</b></a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
-
-    <!--------------------------------------Footer---------------------------------------------->
+  
+  <!--------------------------------------Footer---------------------------------------------->
 
     <br>
     <br>
