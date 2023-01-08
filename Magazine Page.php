@@ -69,7 +69,9 @@
     <h1>Vogue Dec'22 Issue</h1>
     <hr class="rounded">
     <p class="price">$24.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <button>Buy Now</button>
+    </a>
   </div>
 
   <div class="product" style="float: right;">
@@ -77,7 +79,9 @@
     <h1>Vogue Oct'22 Issue</h1>
     <hr class="rounded">
     <p class="price">$24.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <button>Buy Now</button>
+    </a>
   </div>
 
     <!---------------------------------- Divider ---------------------------------->
@@ -99,7 +103,9 @@
     <h1>Empire Feb'23 Issue Feat. Harrison Ford</h1>
     <hr class="rounded">
     <p class="price">$29.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <button class="button">Buy Now</button>
+    </a>
   </div>
 
   <div class="product" style="float: right;">
@@ -107,23 +113,29 @@
     <h1>Empire Summer'22 Issue</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <button>Buy Now</button>
+    </a>
   </div>
 
   <div class="product">
-    <img src="empire.jpg" alt="emp3" style="width:100%">
+    <img src="empire.jpg" alt="emp3" style="width:100%;">
     <h1>Empire Jan'23 The Greatest Actor Issue</h1>
     <hr class="rounded">
     <p class="price">$22.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <button>Buy Now</button>
+    </a>
   </div>
 
   <div class="product" style="float: right;">
-    <img src="empire sep 22.jpg" alt="emp4" style="width:100%">
+    <img src="empire sep 22.jpg" alt="emp4" style="width:100%;">
     <h1>Empire Sep'22 Issue Feat. HOD Cast</h1>
     <hr class="rounded">
     <p class="price">$14.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <button>Buy Now</button>
+    </a>
   </div>
 
   <br>
@@ -147,7 +159,9 @@
     <h1>Times Person of the Year Issue</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <button>Buy Now</button>
+    </a>
   </div>
 
   <div class="product" style="float: right;">
@@ -155,7 +169,9 @@
     <h1>Times interview with Imran Khan Issue</h1>
     <hr class="rounded">
     <p class="price">$19.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <button>Buy Now</button>
+    </a>
   </div>
 
   <br>

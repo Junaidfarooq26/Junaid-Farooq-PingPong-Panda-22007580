@@ -69,7 +69,9 @@
     <h1>MurderWorld: SpiderMan Vol.1</h1>
     <hr class="rounded">
     <p class="price">$24.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <p><button>Buy Now</button></p>
+    </a>
   </div>
 
   <div class="product" style="float: right;">

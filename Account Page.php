@@ -30,13 +30,13 @@
   <div class="uppernav">
 
     <div class="uppernav-middle">
-      <a href="HomePage.html" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
+      <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.html"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
-      <a href="Cart Page.html"><b>Cart</b> <img src="cart.png" width="50" height="50"></a>
+      <a href="Cart Page.php"><b>Cart</b> <img src="cart.png" width="50" height="50"></a>
     </div>
   
   </div>
@@ -66,9 +66,9 @@
 <form>  
     <div class="account">   
         <label>Username : </label>   
-        <input type="text" placeholder="Enter Username" name="username1" required>  
+        <input type="text" placeholder="Enter Username" name="fname" required>  
         <label>Password : </label>   
-        <input type="password" placeholder="Enter Password" name="password1" required>  
+        <input type="password" placeholder="Enter Password" name="pwd" required>  
         <button type="submit">Login</button>         
     </div>   
 </form>  
@@ -89,7 +89,7 @@
 
 <center><h1 style="font-size: 60px; color: white; background-color: #E3CD81FF; border-radius: 40px; padding: 20px;">Register</h1></center> 
 <br>  
-<form method="post" action="Account page.php">
+<form>
     <div class="account"> 
         <label>Username : </label>   
         <input type="text" placeholder="Enter Username" name="username" required>  
@@ -98,8 +98,8 @@
         <label>Password : </label> 
         <input type="password" placeholder="Enter Password" name="password" required>   
         <button type="submit">Register</button>   
-    </div>   
-</form>  
+    </div>     
+</form>
 
 <br>
 
@@ -136,11 +136,11 @@
     </div>
     <hr class="rounded">
       <br>
-      <h1><a style="color:white;text-decoration: none;" href="Contact Us.html">Contact Us</a></h1> 
+      <h1><a style="color:white;text-decoration: none;" href="Contact Us.php">Contact Us</a></h1> 
       <br>
-      <h1><a style="color:white;text-decoration: none;" href="Terms of Use.html">Terms of Use</a></h1>
+      <h1><a style="color:white;text-decoration: none;" href="Terms of Use.php">Terms of Use</a></h1>
       <br>
-      <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.html">Privacy Policy</a></h1>
+      <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.php">Privacy Policy</a></h1>
       <br>
       <hr class="rounded">
       <h3>Copyright 2022-2023 by King Kong Fu. All Right Reserved</h3>
@@ -150,27 +150,23 @@
 </body>
 </html>
 
-
-<!-----------------signup php-------------------->
-
+<!------------------Register php------------------>
 <?php
 session_start();
 
 // initializing variables
-$username = "username";
-$email    = "email";
-$password = "password";
+$username = "";
+$password    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'pingpong panda');
+$db = mysqli_connect('localhost', 'root', '', ' pingpong_panda');
 
 // REGISTER USER
-if (isset($_POST['Register'])) {
+if (isset($_POST['reg_user'])) {
   // receive all input values from the form
   $username = mysqli_real_escape_string($db, $_POST['username']);
   $password = mysqli_real_escape_string($db, $_POST['password']);
-
 
   // form validation: ensure that the form is correctly filled ...
   // by adding (array_push()) corresponding error unto $errors array
@@ -178,8 +174,7 @@ if (isset($_POST['Register'])) {
 
   if (empty($password)) { array_push($errors, "Password is required"); }
 
-  if (empty($email)) { array_push($errors, "email is required"); }
- 
+  if (empty($email)) { array_push($errors, "email is required");}
 
   // first check the database to make sure 
   // a user does not already exist with the same username and/or email
@@ -190,30 +185,19 @@ if (isset($_POST['Register'])) {
   if ($user) { // if user exists
     if ($user['username'] === $username) {
       array_push($errors, "Username already exists");
-    } 
-  }
-
-  //password
-  $user_check_query = "SELECT * FROM user WHERE password='$password'  LIMIT 1";
-  $result = mysqli_query($db, $user_check_query);
-  $user = mysqli_fetch_assoc($result);
-  
-  if ($user) { // if user exists
-    if ($user['password'] === $password) {
-      array_push($errors, "password already exists");
-    } 
+    }
   }
 
   // Finally, register user if there are no errors in the form
   if (count($errors) == 0) {
   	$password = md5($password);//encrypt the password before saving in the database
 
-  	$query = "INSERT INTO user (uname,pass) 
+  	$query = "INSERT INTO user (username,password) 
   			  VALUES('$username','$password')";
   	mysqli_query($db, $query);
   	$_SESSION['username'] = $username;
   	$_SESSION['success'] = "You are now logged in";
-  	header('location: HomePage.php');
+  	header('location: index.php');
   }
 }
 
