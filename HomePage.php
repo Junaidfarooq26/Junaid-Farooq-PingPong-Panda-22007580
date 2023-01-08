@@ -32,7 +32,7 @@
       <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="account_page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
       <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
@@ -170,7 +170,7 @@
   </div>
 
   <br>
-  
+
  <!------------------------------------------Divider-------------------------------------->
 
   <hr class="rounded">

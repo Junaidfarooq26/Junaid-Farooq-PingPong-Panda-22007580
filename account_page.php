@@ -33,7 +33,7 @@
       <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="Account_page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
       <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
@@ -63,12 +63,12 @@
 
 <center><h1 style="font-size: 60px; color: white; background-color: #E3CD81FF; border-radius: 40px; padding: 20px;">Login</h1></center> 
 <br>  
-<form>  
-    <div class="account">   
+<form action="account_page.php" method="post" >
+    <div class="account">
         <label>Username : </label>   
-        <input type="text" placeholder="Enter Username" name="fname" required>  
-        <label>Password : </label>   
-        <input type="password" placeholder="Enter Password" name="pwd" required>  
+        <input type="text" placeholder="Enter Username" name="username" required> 
+        <label>Password : </label>
+        <input type="password" placeholder="Enter Password" name="password" required>  
         <button type="submit">Login</button>         
     </div>   
 </form>  
@@ -89,7 +89,7 @@
 
 <center><h1 style="font-size: 60px; color: white; background-color: #E3CD81FF; border-radius: 40px; padding: 20px;">Register</h1></center> 
 <br>  
-<form>
+<form action="account_page.php" method="post" > 
     <div class="account"> 
         <label>Username : </label>   
         <input type="text" placeholder="Enter Username" name="username" required>  
@@ -97,7 +97,7 @@
         <input style="width: 100%; border-radius: 40px;" type="email" placeholder="Enter Email" name="email" required> 
         <label>Password : </label> 
         <input type="password" placeholder="Enter Password" name="password" required>   
-        <button type="submit">Register</button>   
+     <button type="submit" name="submit">Submit</button>
     </div>     
 </form>
 
@@ -157,13 +157,14 @@ $password    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', ' pingpong_panda');
+$db = mysqli_connect('localhost', 'root', '', 'pingpong');
 
 // REGISTER USER
-if (isset($_POST['reg_user'])) {
+if (isset($_POST['submit'])) {
   // receive all input values from the form
   $username = mysqli_real_escape_string($db, $_POST['username']);
   $password = mysqli_real_escape_string($db, $_POST['password']);
+  $email = mysqli_real_escape_string($db, $_POST['email']);
 
   // form validation: ensure that the form is correctly filled ...
   // by adding (array_push()) corresponding error unto $errors array
@@ -179,7 +180,7 @@ if (isset($_POST['reg_user'])) {
   $result = mysqli_query($db, $user_check_query);
   $user = mysqli_fetch_assoc($result);
   
-  if ($user) { // if user exists
+  if ($user) {
     if ($user['username'] === $username) {
       array_push($errors, "Username already exists");
     }
@@ -194,8 +195,11 @@ if (isset($_POST['reg_user'])) {
   	mysqli_query($db, $query);
   	$_SESSION['username'] = $username;
   	$_SESSION['success'] = "You are now logged in";
-  	header('location: index.php');
+  	header('location: account_page.php');
   }
 }
 
 ?>
+
+<!------------------Login php------------------>
+
