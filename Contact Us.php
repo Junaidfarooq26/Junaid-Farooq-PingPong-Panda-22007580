@@ -207,8 +207,6 @@
   </div>
   <hr class="rounded">
     <br>
-    <h1><a style="color:white;text-decoration: none;" href="Contact Us.html">Contact Us</a></h1> 
-    <br>
     <h1><a style="color:white;text-decoration: none;" href="Terms of Use.html">Terms of Use</a></h1>
     <br>
     <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.html">Privacy Policy</a></h1>
