@@ -33,7 +33,7 @@
     <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
-      <a href="Contact Us.php"><b>Cart</b> <img src="contact us logo.png" width="50" height="50"></a>
+      <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
     </div>
   
   </div>
