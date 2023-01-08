@@ -35,7 +35,7 @@
     <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
-      <a href="Cart Page.php"><b>Cart</b> <img src="cart.png" width="50" height="50"></a>
+      <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
     </div>
   
   </div>
@@ -88,11 +88,11 @@
   <!-------------------------------- Bottom Navbar ------------------------------------------>
 
   <div class="header" id="myheader">
-    <a href="About Us.html" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 
-    <a href="Comic Page.html"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
-    <a href="Manga Page.html"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
-    <a href="Magazine Page.html"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
-    <a href="News Page.html"><img src="news.png" width="50" height="50"> <b>News</b></a>
+    <a href="About Us.php" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 
+    <a href="Comic Page.php"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
+    <a href="Manga Page.php"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
+    <a href="Magazine Page.php"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
+    <a href="News Page.php"><img src="news.png" width="50" height="50"> <b>News</b></a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
@@ -113,8 +113,6 @@
     <a href="https://twitter.com/PingP0ng_Panda"><img style="margin-left: 50px" src="twitter.png" width="50" height="50"></a>
   </div>
   <hr class="rounded">
-    <br>
-    <h1><a style="color:white;text-decoration: none;" href="Contact Us.php">Contact Us</a></h1> 
     <br>
     <h1><a style="color:white;text-decoration: none;" href="Terms of Use.php">Terms of Use</a></h1>
     <br>
