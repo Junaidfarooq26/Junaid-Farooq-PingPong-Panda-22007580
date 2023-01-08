@@ -27,13 +27,13 @@
   <div class="uppernav">
 
     <div class="uppernav-middle">
-      <a href="HomePage.html" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
+      <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.html"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
-      <a href="Cart Page.html"><b>Cart</b> <img src="cart.png" width="50" height="50"></a>
+      <a href="Contact Us.php"><b>Cart</b> <img src="contact us logo.png" width="50" height="50"></a>
     </div>
   
   </div>
@@ -91,10 +91,10 @@
        <hr class="rounded">
 
   <div class="header" id="myheader">
-    <a href="About Us.html" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 
-    <a href="Comic Page.html"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
-    <a href="Manga Page.html"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
-    <a href="Magazine Page.html"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
+    <a href="About Us.php" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a>
+    <a href="Comic Page.php"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
+    <a href="Manga Page.php"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
+    <a href="Magazine Page.php"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
     <a href="News Page.html"><img src="news.png" width="50" height="50"> <b>News</b></a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
@@ -113,11 +113,9 @@
     </div>
     <hr class="rounded">
       <br>
-      <h1><a style="color:white;text-decoration: none;" href="Contact Us.html">Contact Us</a></h1> 
+      <h1><a style="color:white;text-decoration: none;" href="Terms of Use.php">Terms of Use</a></h1>
       <br>
-      <h1><a style="color:white;text-decoration: none;" href="Terms of Use.html">Terms of Use</a></h1>
-      <br>
-      <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.html">Privacy Policy</a></h1>
+      <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.php">Privacy Policy</a></h1>
       <br>
       <hr class="rounded">
       <h3>Copyright 2022-2023 by King Kong Fu. All Right Reserved</h3>

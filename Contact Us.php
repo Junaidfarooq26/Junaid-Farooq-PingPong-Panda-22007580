@@ -29,13 +29,13 @@
   <div class="uppernav">
 
     <div class="uppernav-middle">
-      <a href="HomePage.html" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
+      <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.html"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
-      <a href="Cart Page.html"><b>Cart</b> <img src="cart.png" width="50" height="50"></a>
+      <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
     </div>
   
   </div>

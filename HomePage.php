@@ -29,13 +29,13 @@
   <div class="uppernav">
 
     <div class="uppernav-middle">
-      <a href="HomePage.html" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
+      <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.html"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
-      <a href="Cart Page.html"><b>Cart</b> <img src="cart.png" width="50" height="50"></a>
+      <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
     </div>
   
   </div>
@@ -69,39 +69,39 @@
   <div class="rack">
     
     <div class="new">
-    <a href="Comic Page.html#marvel"><img src="avengers.jpg" alt="avengers" style="width:90%" height="79%" border: 5px solid #555;></a>
-    <a href="Comic Page.html#marvel"><strong><div class="card" style="width: 90%"><b>Avengers Forever #12</b> Aaron,Kuder</div></strong></a>
+    <a href="Comic Page.php#marvel"><img src="avengers.jpg" alt="avengers" style="width:90%" height="79%" border: 5px solid #555;></a>
+    <a href="Comic Page.php#marvel"><strong><div class="card" style="width: 90%"><b>Avengers Forever #12</b> Aaron,Kuder</div></strong></a>
     </div>
 
     <div class="new">
-      <a href="Comic Page.html#dc"><img src="BMandcw.jpg" alt="batman and catwoman" style="width:90%; float: right;" height="79%" border: 5px solid #555;></a>
-      <a href="Comic Page.html#dc"><strong><div class="card" style="width: 90%; float: right;"><b>BatMan/CatWoman</b>  Ram,Tom King</div></strong></a>
+      <a href="Comic Page.php#dc"><img src="BMandcw.jpg" alt="batman and catwoman" style="width:90%; float: right;" height="79%" border: 5px solid #555;></a>
+      <a href="Comic Page.php#dc"><strong><div class="card" style="width: 90%; float: right;"><b>BatMan/CatWoman</b>  Ram,Tom King</div></strong></a>
     </div>
 
   </div>
 
   <div class="rack">
     <div class="new">
-    <a href="Magazine Page.html#vogue"><img src="vogue.png" alt="Vogue" style="width:90%" height="78%" border: 5px solid #555;></a>
-    <a href="Magazine Page.html#vogue"><strong><div class="card" style="width: 90%"><b>Vogue Dec'22 Issue</b> EUGÉNIE TROCHU</div></strong></a>
+    <a href="Magazine Page.php#vogue"><img src="vogue.png" alt="Vogue" style="width:90%" height="78%" border: 5px solid #555;></a>
+    <a href="Magazine Page.php#vogue"><strong><div class="card" style="width: 90%"><b>Vogue Dec'22 Issue</b> EUGÉNIE TROCHU</div></strong></a>
     </div>
 
     <div class="new">
-      <a href="Magazine Page.html#empire"><img src="empire.jpg" alt="Empire Magazine" style="width:90%; float: right;" height="78%" border: 5px solid #555;></a>
-      <a href="Magazine Page.html#empire"><strong><div class="card" style="width: 90%; float: right;"><b>Empire Feb'23 Issue</b> Emlyen </div></strong></a>
+      <a href="Magazine Page.php#empire"><img src="empire.jpg" alt="Empire Magazine" style="width:90%; float: right;" height="78%" border: 5px solid #555;></a>
+      <a href="Magazine Page.php#empire"><strong><div class="card" style="width: 90%; float: right;"><b>Empire Feb'23 Issue</b> Emlyen </div></strong></a>
     </div>
     
   </div>
 
   <div class="rack">
     <div class="new">
-    <a href="Manga Page.html"><img src="Boku_no_Hero_Academia_Volume_1.png" alt="My Hero Academia" style="width:90%" height="78%" border: 5px solid #555;></a>
-    <a href="Manga Page.html"><strong><div class="card" style="width: 90%"><b>My Hero Academia Vol.1</b> Kohei Horikoshi</div></strong></a>
+    <a href="Manga Page.php"><img src="Boku_no_Hero_Academia_Volume_1.png" alt="My Hero Academia" style="width:90%" height="78%" border: 5px solid #555;></a>
+    <a href="Manga Page.php"><strong><div class="card" style="width: 90%"><b>My Hero Academia Vol.1</b> Kohei Horikoshi</div></strong></a>
     </div>
 
     <div class="new">
-      <a href="Manga Page.html"><img src="demon slayer.jfif" alt="batman and catwoman" style="width:90%; float: right;" height="78%" border: 5px solid #555;></a>
-      <a href="Manga Page.html"><strong><div class="card" style="width: 90%; float: right;"><b>Demon Slayer Vol.8</b> Koyoharu Gotouge</div></strong></a>
+      <a href="Manga Page.php"><img src="demon slayer.jfif" alt="batman and catwoman" style="width:90%; float: right;" height="78%" border: 5px solid #555;></a>
+      <a href="Manga Page.php"><strong><div class="card" style="width: 90%; float: right;"><b>Demon Slayer Vol.8</b> Koyoharu Gotouge</div></strong></a>
     </div>
     
   </div>
@@ -183,37 +183,37 @@
 
  <div class="rack">
    <div class="new">
-   <a href="Comic Page.html#marvel"><img src="the vitals marvel.jpg" alt="The Vitals" style="width:90%" height="79%" border: 5px solid #555;></a>
-   <a href="Comic Page.html#marvel"><strong><div class="card" style="width: 90%"><b>The Vitals: True EMS Stories #0</b></div></strong></a>
+   <a href="Comic Page.php#marvel"><img src="the vitals marvel.jpg" alt="The Vitals" style="width:90%" height="79%" border: 5px solid #555;></a>
+   <a href="Comic Page.php#marvel"><strong><div class="card" style="width: 90%"><b>The Vitals: True EMS Stories #0</b></div></strong></a>
    </div>
 
    <div class="new">
-     <a href="Comic Page.html#dc"><img src="batmanamdsuperman.jpg" alt="batman and Superman" style="width:90%; float: right;" height="79%" border: 5px solid #555;></a>
-     <a href="Comic Page.html#dc"><strong><div class="card" style="width: 90%; float: right;"><b>BatMan/SuperMan: World's Finest #10</b></div></strong></a>
-   </div>
- </div>
-
- <div class="rack">
-   <div class="new">
-   <a href="Magazine Page.html#time"><img src="person of the year.png" alt="Time's magazine" style="width:90%" height="78%" border: 5px solid #555;></a>
-   <a href="Magazine Page.html#time"><strong><div class="card" style="width: 90%"><b>Person of the Year Dec'21 Issue</b></div></strong></a>
-   </div>
-
-   <div class="new">
-     <a href="Magazine Page.html#empire"><img src="empire summer 22.jpg" alt="Empire Magazine summer 22" style="width:90%; float: right;" height="78%" border: 5px solid #555;></a>
-     <a href="Magazine Page.html#empire"><strong><div class="card" style="width: 90%; float: right;"><b>Empire Summmer'22 Issue</b> </div></strong></a>
+     <a href="Comic Page.php#dc"><img src="batmanamdsuperman.jpg" alt="batman and Superman" style="width:90%; float: right;" height="79%" border: 5px solid #555;></a>
+     <a href="Comic Page.php#dc"><strong><div class="card" style="width: 90%; float: right;"><b>BatMan/SuperMan: World's Finest #10</b></div></strong></a>
    </div>
  </div>
 
  <div class="rack">
    <div class="new">
-   <a href="Manga Page.html"><img src="note.jpg" alt="Death Note" style="width:90%" height="78%" border: 5px solid #555;></a>
-   <a href="Manga Page.html"><strong><div class="card" style="width: 90%"><b>Death Note Vol.4</b></div></strong></a>
+   <a href="Magazine Page.php#time"><img src="person of the year.png" alt="Time's magazine" style="width:90%" height="78%" border: 5px solid #555;></a>
+   <a href="Magazine Page.php#time"><strong><div class="card" style="width: 90%"><b>Person of the Year Dec'21 Issue</b></div></strong></a>
    </div>
 
    <div class="new">
-     <a href="Manga Page.html"><img src="naruto.jpg" alt="Naruto" style="width:90%; float: right;" height="78%" border: 5px solid #555;></a>
-     <a href="Manga Page.html"><strong><div class="card" style="width: 90%; float: right;"><b>Naruto Vol.1</b></div></strong></a>
+     <a href="Magazine Page.php#empire"><img src="empire summer 22.jpg" alt="Empire Magazine summer 22" style="width:90%; float: right;" height="78%" border: 5px solid #555;></a>
+     <a href="Magazine Page.php#empire"><strong><div class="card" style="width: 90%; float: right;"><b>Empire Summmer'22 Issue</b> </div></strong></a>
+   </div>
+ </div>
+
+ <div class="rack">
+   <div class="new">
+   <a href="Manga Page.php"><img src="note.jpg" alt="Death Note" style="width:90%" height="78%" border: 5px solid #555;></a>
+   <a href="Manga Page.php"><strong><div class="card" style="width: 90%"><b>Death Note Vol.4</b></div></strong></a>
+   </div>
+
+   <div class="new">
+     <a href="Manga Page.php"><img src="naruto.jpg" alt="Naruto" style="width:90%; float: right;" height="78%" border: 5px solid #555;></a>
+     <a href="Manga Page.php"><strong><div class="card" style="width: 90%; float: right;"><b>Naruto Vol.1</b></div></strong></a>
    </div>
  </div>
 
@@ -224,11 +224,11 @@
  <!-------------------------------- Bottom Navbar ------------------------------------------>
 
   <div class="header" id="myheader">
-    <a href="About Us.html" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 
-    <a href="Comic Page.html"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
-    <a href="Manga Page.html"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
-    <a href="Magazine Page.html"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
-    <a href="News Page.html"><img src="news.png" width="50" height="50"> <b>News</b></a>
+    <a href="About Us.php" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 
+    <a href="Comic Page.php"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
+    <a href="Manga Page.php"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
+    <a href="Magazine Page.php"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
+    <a href="News Page.php"><img src="news.png" width="50" height="50"> <b>News</b></a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
@@ -246,11 +246,9 @@
   </div>
   <hr class="rounded">
     <br>
-    <h1><a style="color:white;text-decoration: none;" href="Contact Us.html">Contact Us</a></h1> 
+    <h1><a style="color:white;text-decoration: none;" href="Terms of Use.php">Terms of Use</a></h1>
     <br>
-    <h1><a style="color:white;text-decoration: none;" href="Terms of Use.html">Terms of Use</a></h1>
-    <br>
-    <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.html">Privacy Policy</a></h1>
+    <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.php">Privacy Policy</a></h1>
     <br>
     <hr class="rounded">
     <h3>Copyright 2022-2023 by King Kong Fu. All Right Reserved</h3>
