@@ -153,22 +153,24 @@
  <div class="row">
     
   <div class="column">
-    <a href="News Page.html"><img src="maintenance cover.png" alt="Maintenance" style="width:100%" height="71%"></a>
-    <a href="News Page.html"><div class="card" style="width: 100%; font-size: 35px;"><span style="font-size: 40px"><b>Application Maintenance </b></span> <br> Did you Know PingPong Panda will be Down for Maintenance...<br> <span style="color: red;"><b><u>Read More</u></b></span></div></a>
+    <a><img src="maintenance cover.png" alt="Maintenance" style="width:100%" height="71%"></a>
+    <a><div class="card" style="width: 100%; font-size: 30px;"><span style="font-size: 40px"><b>Application Maintenance </b></span> <br> PingPong Panda App will be Down for Maintenance From 20th January - 22nd January 2023.</div></a>
   </div>
 
   <div class="column">
-    <a href="News Page.html"><img src="Manga coming soon.png" alt="New manga" style="width:100%" height="70%"></a>
-    <a href="News Page.html"><div class="card" style="width: 100%; font-size: 35px;"><span style="font-size: 40px"><b>New Mangas Issues</b></span> <br> New mangas will soon be available...<br> <span style="color: red;"><b><u>Read More</u></b></span></div></a>
+    <a><img src="Manga coming soon.png" alt="New manga" style="width:100%" height="70%"></a>
+    <a><div class="card" style="width: 100%; font-size: 30px;"><span style="font-size: 40px"><b>New Mangas Issues</b></span> <br> From 1st February 2023 new issues of differnet kinds of mangas will be availble for you guys to enjoy.</div></a>
   </div>
 
   <div class="column">
-    <a href="News Page.html"><img src="Sale.png" alt="Sale Cover" style="width:100%" height="69%"></a>
-    <a href="News Page.html"><div class="card" style="width: 100%; font-size: 35px;"><span style="font-size: 40px"><b>Sale News</b></span> <br> PingPong Panda Will Have it's First Ever Sale on All of it's Items... <br> <span style="color: red;"><b><u>Read More</u></b></span></div></a>
+    <a><img src="Sale.png" alt="Sale Cover" style="width:100%" height="69%"></a>
+    <a><div class="card" style="width: 100%; font-size: 30px;"><span style="font-size: 40px"><b>Sale News</b></span> <br> Starting from 15th February 2023 PingPong Panda Will Have it's First Ever Sale on All of it's Items for Upto 50% OFF so Save the Date.</div></a>
   </div>
 
   </div>
 
+  <br>
+  
  <!------------------------------------------Divider-------------------------------------->
 
   <hr class="rounded">
