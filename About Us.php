@@ -95,7 +95,6 @@
     <a href="Comic Page.php"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
     <a href="Manga Page.php"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
     <a href="Magazine Page.php"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
-    <a href="News Page.html"><img src="news.png" width="50" height="50"> <b>News</b></a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
   
