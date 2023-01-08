@@ -27,13 +27,13 @@
   <div class="uppernav">
 
     <div class="uppernav-middle">
-      <a href="HomePage.html" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
+      <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.html"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
-      <a href="Cart Page.html"><b>Cart</b> <img src="cart.png" width="50" height="50"></a>
+      <a href="Cart Page.php"><b>Cart</b> <img src="cart.png" width="50" height="50"></a>
     </div>
   
   </div>
@@ -67,7 +67,9 @@
     <h1>ChainSaw Man Volume.20</h1>
     <hr class="rounded">
     <p class="price">$19.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <p><button>Buy Now</button></p>
+    </a>
   </div>
 
   <div class="product" style="float: right;">
@@ -75,7 +77,9 @@
     <h1>Demon Slayer Volume.08</h1>
     <hr class="rounded">
     <p class="price">$22.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <p><button>Buy Now</button></p>
+    </a>
   </div>
 
   <div class="product">
@@ -83,7 +87,9 @@
     <h1>Naruto Volume.01 by masashi Kishimoto</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <p><button>Buy Now</button></p>
+    </a>
   </div>
 
   <div class="product" style="float: right;">
@@ -91,7 +97,9 @@
     <h1>Death Note Volume.04 By Tsugumi Ohba</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <p><button>Buy Now</button></p>
+    </a>
   </div>
 
   <div class="product" style="margin-left: 260px;">
@@ -99,7 +107,9 @@
     <h1>My Hero Academia Volume.01</h1>
     <hr class="rounded">
     <p class="price">$25.99</p>
-    <p><button>Add to Cart</button></p>
+    <a href="Purchase Product.php">
+    <p><button>Buy Now</button></p>
+    </a>
   </div>
 
   <br>
@@ -134,11 +144,11 @@
   </div>
   <hr class="rounded">
     <br>
-    <h1><a style="color:white;text-decoration: none;" href="Contact Us.html">Contact Us</a></h1> 
+    <h1><a style="color:white;text-decoration: none;" href="Contact Us.php">Contact Us</a></h1> 
     <br>
-    <h1><a style="color:white;text-decoration: none;" href="Terms of Use.html">Terms of Use</a></h1>
+    <h1><a style="color:white;text-decoration: none;" href="Terms of Use.php">Terms of Use</a></h1>
     <br>
-    <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.html">Privacy Policy</a></h1>
+    <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.php">Privacy Policy</a></h1>
     <br>
     <hr class="rounded">
     <h3>Copyright 2022-2023 by King Kong Fu. All Right Reserved</h3>

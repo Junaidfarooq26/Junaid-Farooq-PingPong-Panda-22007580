@@ -60,29 +60,41 @@
 
   <br>
 
-  <div class="pay" style="margin-left: 600px; width: 450px; margin-top: -200px;">
+  <div class="pay">
             <form action="">
-              <label for="fname" style="font-size: 20px;">First Name</label>
-              <input style="font-size: 20px;" type="text" id="fname" name="firstname" placeholder="Enter First Name..">
+              <label for="fname" style="font-size: 35px; color: white;">First Name</label>
+              <input style="font-size: 20px; height: 60px; border-radius: 40px;" type="text" id="fname" name="firstname" placeholder="Enter First Name..">
             
-              <label for="lname" style="font-size: 20px;">Last Name</label>
-              <input style="font-size: 20px;" type="text" id="lname" name="lastname" placeholder="Enter Last Name..">
+              <label for="lname" style="font-size: 35px; color: white;">Last Name</label>
+              <input style="font-size: 20px; height: 60px; border-radius: 40px;" type="text" id="lname" name="lastname" placeholder="Enter Last Name..">
 
-              <label for="email" style="font-size: 20px;">E-mail</label>
-              <input style="width: 100%; border-radius: 40px; height: 30px;" type="email" placeholder="Enter Email..." name="email" required> 
+              <label for="email" style="font-size: 35px; color: white;">E-mail</label>
+              <input style="width: 100%; border-radius: 40px; height: 60px;" type="email" placeholder="Enter Email..." name="email" required> 
             <br>
             <br>
-              <label for="phone" style="font-size: 20px;">Phone Number</label>
-              <input style="width: 99%; border-radius: 40px; height: 30px;" type="tel" id="phone" name="phone" placeholder="Enter Phone Number..." pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+              <label for="phone" style="font-size: 35px; color: white;">Phone Number</label>
+              <input style="width: 100%; border-radius: 40px; height: 60px;" type="tel" id="phone" name="phone" placeholder="Enter Phone Number..." pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
             <br>
             <br>
-              <label for="Address" style="font-size: 20px;">Address</label>
-              <textarea style="font-size: 20px; height:100px;" id="address" name="address" placeholder="Write Your Address..."></textarea>
+              <label for="Address" style="font-size: 35px; color: white;">Address</label>
+              <textarea style="font-size: 20px; height:120px;" id="address" name="address" placeholder="Write Your Address..."></textarea>
             
-              <input style="font-size: 35px; border-radius: 40px;" type="submit" value="Purchase">
+              <input style="font-size: 50px; border-radius: 40px;" type="submit" value="Purchase">
             
             </form>
             </div>
+
+
+  <!-------------------------------- Bottom Navbar ------------------------------------------>
+
+  <div class="header" id="myheader">
+    <a href="About Us.html" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 
+    <a href="Comic Page.html"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
+    <a href="Manga Page.html"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
+    <a href="Magazine Page.html"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
+    <a href="News Page.html"><img src="news.png" width="50" height="50"> <b>News</b></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
 
  <!-----------------------------------------Divider---------------------------------------->
 
