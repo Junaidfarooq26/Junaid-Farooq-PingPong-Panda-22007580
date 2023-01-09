@@ -32,10 +32,10 @@
       <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="register.php"><img src="account.png" width="50" height="50"> <b>Register</b></a>
   
     <div class="uppernav-right">
-      <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
+      <a href="login.php"><b>Login</b> <img src="login logo.png" width="50" height="50"></a>
     </div>
   
   </div>
@@ -61,7 +61,7 @@
   <br>
 
   <div class="pay">
-            <form action="">
+            <form action="purchase_product.php" method="post" >
               <label for="fname" style="font-size: 35px; color: white;">First Name</label>
               <input style="font-size: 20px; height: 60px; border-radius: 40px;" type="text" id="fname" name="firstname" placeholder="Enter First Name..">
             
@@ -73,7 +73,7 @@
             <br>
             <br>
               <label for="phone" style="font-size: 35px; color: white;">Phone Number</label>
-              <input style="width: 100%; border-radius: 40px; height: 60px;" type="tel" id="phone" name="phone" placeholder="Enter Phone Number..." pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <input style="width: 100%; border-radius: 40px; height: 60px;" type="tel" id="phone" name="phone" placeholder="Enter Phone Number...">
             <br>
             <br>
               <label for="Address" style="font-size: 35px; color: white;">Address</label>
@@ -81,7 +81,6 @@
             
               <input style="font-size: 50px; border-radius: 40px;" type="submit" value="Purchase">
             
-            </form>
             </div>
 
 
@@ -113,6 +112,8 @@
   </div>
   <hr class="rounded">
     <br>
+    <h1><a style="color:white;text-decoration: none;" href="contact_us.php">Contact Us</a></h1>
+    <br>
     <h1><a style="color:white;text-decoration: none;" href="Terms of Use.php">Terms of Use</a></h1>
     <br>
     <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.php">Privacy Policy</a></h1>
@@ -124,3 +125,38 @@
 
 </body>
 </html>
+
+<!------------------Purchase php------------------>
+<?php
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get the form data
+    $firstname = $_POST["firstname"];
+    $lastname = $_POST["lastname"];
+    $email = $_POST["email"];
+    $phone = $_POST["phone"];
+    $address = $_POST["address"];
+
+    // Validate the form data (optional)
+
+    // Connect to the database
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "pingpong";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+            
+    }
+
+    // Insert the new order into the database
+    $sql = "INSERT INTO user_details (firstname, lastname, email, phone, address) VALUES ('$firstname', '$lastname', '$email', '$phone', '$address')";
+    if ($conn->query($sql) === TRUE) {
+      echo "New order created successfully";
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+    $conn->close();
+  }
+?>

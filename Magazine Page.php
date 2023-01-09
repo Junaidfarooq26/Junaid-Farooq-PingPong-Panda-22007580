@@ -33,7 +33,7 @@
     <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
   
     <div class="uppernav-right">
-      <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
+      <a href="login.php"><b>Login</b> <img src="login logo.png" width="50" height="50"></a>
     </div>
   
   </div>
@@ -69,7 +69,7 @@
     <h1>Vogue Dec'22 Issue</h1>
     <hr class="rounded">
     <p class="price">$24.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <button>Buy Now</button>
     </a>
   </div>
@@ -79,7 +79,7 @@
     <h1>Vogue Oct'22 Issue</h1>
     <hr class="rounded">
     <p class="price">$24.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <button>Buy Now</button>
     </a>
   </div>
@@ -103,7 +103,7 @@
     <h1>Empire Feb'23 Issue Feat. Harrison Ford</h1>
     <hr class="rounded">
     <p class="price">$29.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <button class="button">Buy Now</button>
     </a>
   </div>
@@ -113,7 +113,7 @@
     <h1>Empire Summer'22 Issue</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <button>Buy Now</button>
     </a>
   </div>
@@ -123,7 +123,7 @@
     <h1>Empire Jan'23 The Greatest Actor Issue</h1>
     <hr class="rounded">
     <p class="price">$22.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <button>Buy Now</button>
     </a>
   </div>
@@ -133,7 +133,7 @@
     <h1>Empire Sep'22 Issue Feat. HOD Cast</h1>
     <hr class="rounded">
     <p class="price">$14.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <button>Buy Now</button>
     </a>
   </div>
@@ -159,7 +159,7 @@
     <h1>Times Person of the Year Issue</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <button>Buy Now</button>
     </a>
   </div>
@@ -169,7 +169,7 @@
     <h1>Times interview with Imran Khan Issue</h1>
     <hr class="rounded">
     <p class="price">$19.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <button>Buy Now</button>
     </a>
   </div>

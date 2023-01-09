@@ -67,7 +67,7 @@
     <h1>ChainSaw Man Volume.20</h1>
     <hr class="rounded">
     <p class="price">$19.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -77,7 +77,7 @@
     <h1>Demon Slayer Volume.08</h1>
     <hr class="rounded">
     <p class="price">$22.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -87,7 +87,7 @@
     <h1>Naruto Volume.01 by masashi Kishimoto</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -97,7 +97,7 @@
     <h1>Death Note Volume.04 By Tsugumi Ohba</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -107,7 +107,7 @@
     <h1>My Hero Academia Volume.01</h1>
     <hr class="rounded">
     <p class="price">$25.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>

@@ -69,7 +69,7 @@
     <h1>MurderWorld: SpiderMan Vol.1</h1>
     <hr class="rounded">
     <p class="price">$24.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -79,7 +79,7 @@
     <h1>DarkWeb: Ms. Marvel Vol.1</h1>
     <hr class="rounded">
     <p class="price">$22.89</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -89,7 +89,7 @@
     <h1>Avengers Forever Vol.12</h1>
     <hr class="rounded">
     <p class="price">$29.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -99,7 +99,7 @@
     <h1>The Vitals: True EMS Stories</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -109,7 +109,7 @@
     <h1>Ant-Man Vol.1</h1>
     <hr class="rounded">
     <p class="price">$34.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -119,7 +119,7 @@
     <h1>Marvel Wolverine Vol.028</h1>
     <hr class="rounded">
     <p class="price">$14.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -143,7 +143,7 @@
     <h1>BatMan.SuperMan: World's Finest</h1>
     <hr class="rounded">
     <p class="price">Free</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -153,7 +153,7 @@
     <h1>Blue Beetle: Graduation Day</h1>
     <hr class="rounded">
     <p class="price">$19.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -163,7 +163,7 @@
     <h1>BatMan And CatWoman</h1>
     <hr class="rounded">
     <p class="price">$24.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -173,7 +173,7 @@
     <h1>DC vs Vampires 12 of 12</h1>
     <hr class="rounded">
     <p class="price">$29.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -183,7 +183,7 @@
     <h1>DC SuperMan and Flash</h1>
     <hr class="rounded">
     <p class="price">$35.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>
@@ -193,7 +193,7 @@
     <h1>DC Harley Quinn Vol.25</h1>
     <hr class="rounded">
     <p class="price">$14.99</p>
-    <a href="Purchase Product.php">
+    <a href="purchase_product.php">
     <p><button>Buy Now</button></p>
     </a>
   </div>

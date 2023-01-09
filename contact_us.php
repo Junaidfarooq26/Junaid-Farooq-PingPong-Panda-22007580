@@ -32,10 +32,10 @@
       <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="register.php"><img src="account.png" width="50" height="50"> <b>Register</b></a>
   
     <div class="uppernav-right">
-      <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
+      <a href="Login.php"><b>Login</b> <img src="login logo.png" width="50" height="50"></a>
     </div>
   
   </div>
@@ -74,56 +74,15 @@
 
 <!----------------------------------------Contact us Form---------------------------------------->
 
-<h1 style="color:black"><strong><b>Contact Us Form</b></strong></h1>
+<h1 style="color:black"><strong><b>Customer Support Specialist</b></strong></h1>
 
 <br>
 
-<div class="container">
-    <form action="action_page.php">
-  
-      <label for="fname" style="font-size: 35px;">First Name</label>
-      <input style="font-size: 25px;" type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname" style="font-size: 35px;">Last Name</label>
-      <input style="font-size: 25px;" type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="country" style="font-size: 35px;">Country</label>
-      <select id="country" name="country">
-        <option value="1st Country">Argentina</option>
-        <option value="2nd Country">Brazil</option>
-        <option value="3rd Country">Canada</option>
-        <option value="4th Country">Denmark</option>
-        <option value="5th Country">Egypt</option>
-        <option value="6th Country">France</option>
-        <option value="7th Country">Germany</option>
-        <option value="8th Country">Hungary</option>
-        <option value="9th Country">IceLand</option>
-        <option value="10th Country">Japan</option>
-        <option value="11th Country">Kenya</option>
-        <option value="12th Country">Libya</option>
-        <option value="13th Country">Malaysia</option>
-        <option value="14th Country">Nepal</option>
-        <option value="15th Country">Norway</option>
-        <option value="16th Country">Oman</option>
-        <option value="17th Country">Pakistan</option>
-        <option value="18th Country">Qatar</option>
-        <option value="19th Country">Romania</option>
-        <option value="20th Country">Singapore</option>
-        <option value="21st Country">Turkey</option>
-        <option value="22nd Country">USA</option>
-        <option value="23rd Country">United Kingdom</option>
-        <option value="24th country">Venezuela</option>
-        <option value="25th Country">	Zimbabwe</option>
-      </select>
-  
-      <label for="subject" style="font-size: 35px;">Subject</label>
-      <textarea style="font-size: 25px; height:200px;" id="subject" name="subject" placeholder="Write something.."></textarea>
-      <input style="font-size: 35px; margin-left: 180px; border-radius: 40px;" type="submit" value="Submit">
-  
-    </form>
-  </div>
+<p style="color:white; font-size: 35px;">Junaid Farooq</p>
+<p style="color: white; font-size: 35px;"><b>E-mail:</b> customersupport@gmail.com</p>
+<p style="color: white; font-size: 35px;"><b>Phone Number:</b> (+92)333-578-3201</p>
 
-  <br>
+<br>
 
  <!---------------------------------- Divider ---------------------------------->
 
@@ -141,23 +100,6 @@
  <p style="color: white; font-size: 35px;">Phone: +44 1707 284000</p>
 
  <br>
-
- <!---------------------------------- Divider ---------------------------------->
-
-    <hr class="rounded">
-
-    <br>
-
-  <!----------------------------Consumer Inquiries------------------------------------>  
-
-  <h1 style="color:black"><strong><b>Consumer Inquiries</b></strong></h1>
-
-  <br>
-
-  <p style="color:white; font-size: 35px;">For any inquiries unresolved by the Help Page, 
-    please fill the Contact Form above.</p>
-
-    <br>
 
   <!---------------------------------- Divider ---------------------------------->
    
@@ -206,6 +148,8 @@
     <a href="https://twitter.com/PingP0ng_Panda"><img style="margin-left: 50px" src="twitter.png" width="50" height="50"></a>
   </div>
   <hr class="rounded">
+    <br>
+    <h1><a style="color:white;text-decoration: none;" href="contact_us.html">Contact Us</a></h1>
     <br>
     <h1><a style="color:white;text-decoration: none;" href="Terms of Use.html">Terms of Use</a></h1>
     <br>

@@ -30,10 +30,10 @@
       <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="register.php"><img src="account.png" width="50" height="50"> <b>Register</b></a>
   
     <div class="uppernav-right">
-      <a href="Contact Us.php"><b>Contact Us</b> <img src="contact us logo.png" width="50" height="50"></a>
+      <a href="login.php"><b>Login</b> <img src="login logo.png" width="50" height="50"></a>
     </div>
   
   </div>
@@ -112,6 +112,8 @@
     </div>
     <hr class="rounded">
       <br>
+      <h1><a style="color:white;text-decoration: none;" href="contact_us.php">Contact Us</a></h1>
+      <br>
       <h1><a style="color:white;text-decoration: none;" href="Terms of Use.php">Terms of Use</a></h1>
       <br>
       <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.php">Privacy Policy</a></h1>
@@ -120,6 +122,6 @@
       <h3>Copyright 2022-2023 by King Kong Fu. All Right Reserved</h3>
     </footer>
     <br>
-	
+
 </body>
 </html>
