@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Account page</title>
+<title>register page</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -43,7 +43,7 @@
 
   <br>
 
-      <!--------------------------- Comic Cover photo ------------------------------------------>
+      <!--------------------------- account page photo ------------------------------------------>
 
       <div class="Banner">
         <a><img src="account page cover.png" alt="banner" style="width: 100%" height="300"></a>
@@ -123,33 +123,29 @@
 </body>
 </html>
 
+
 <!------------------signup php------------------>
 <?php
 session_start();
 
-// initializing variables
+
 $username = "";
-$password    = "";
+$password = "";
 $errors = array(); 
 
-// connect to the database
+
 $db = mysqli_connect('localhost', 'root', '', 'pingpong');
 
-// REGISTER USER
+
 if (isset($_POST['submit'])) {
-  // receive all input values from the form
+  
   $username = mysqli_real_escape_string($db, $_POST['username']);
   $password = mysqli_real_escape_string($db, $_POST['password']);
 
-
-  // form validation: ensure that the form is correctly filled ...
-  // by adding (array_push()) corresponding error unto $errors array
   if (empty($username)) { array_push($errors, "Username is required"); }
 
   if (empty($password)) { array_push($errors, "Password is required"); }
 
-  // first check the database to make sure 
-  // a user does not already exist with the same username.
   $user_check_query = "SELECT * FROM user WHERE username='$username'  LIMIT 1";
   $result = mysqli_query($db, $user_check_query);
   $user = mysqli_fetch_assoc($result);
@@ -160,7 +156,6 @@ if (isset($_POST['submit'])) {
     }
   }
 
-  // Finally, register user if there are no errors in the form
   if (count($errors) == 0) {
 
   	$query = "INSERT INTO user (username,password) 
@@ -168,7 +163,7 @@ if (isset($_POST['submit'])) {
   	mysqli_query($db, $query);
   	$_SESSION['username'] = $username;
   	$_SESSION['success'] = "You are now logged in";
-  	header('location: login.php');
+  	echo "<script>window.open('login.php','_self')</script>";
   }
 }
 

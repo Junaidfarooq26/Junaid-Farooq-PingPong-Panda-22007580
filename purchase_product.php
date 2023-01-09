@@ -44,7 +44,13 @@
 
   <!--------------------------- Homepage Cover photo ------------------------------------------>
  
+  <div class="Banner">
+        <a><img src="pay.png" alt="banner" style="width: 100%" height="300"></a>
+        <div class="centered">
+        </div>
+      </div>
     
+      <br>
 
   <br>
 
@@ -56,28 +62,28 @@
 
   <br>
 
-  <h1 style="color:white"><b><strong>Product Purchase Form</strong></b></h1>
+  <h1 style="color:white"><b><strong>Billing Detail's</strong></b></h1>
 
   <br>
 
   <div class="pay">
             <form action="purchase_product.php" method="post" >
               <label for="fname" style="font-size: 35px; color: white;">First Name</label>
-              <input style="font-size: 20px; height: 60px; border-radius: 40px;" type="text" id="fname" name="firstname" placeholder="Enter First Name..">
+              <input style="font-size: 40px; height: 60px; border-radius: 40px;" type="text" id="fname" name="firstname" placeholder="Enter First Name..">
             
               <label for="lname" style="font-size: 35px; color: white;">Last Name</label>
-              <input style="font-size: 20px; height: 60px; border-radius: 40px;" type="text" id="lname" name="lastname" placeholder="Enter Last Name..">
+              <input style="font-size: 40px; height: 60px; border-radius: 40px;" type="text" id="lname" name="lastname" placeholder="Enter Last Name..">
 
               <label for="email" style="font-size: 35px; color: white;">E-mail</label>
-              <input style="width: 100%; border-radius: 40px; height: 60px;" type="email" placeholder="Enter Email..." name="email" required> 
+              <input style="width: 100%; border-radius: 40px; height: 60px; font-size: 40px;" type="email" placeholder="Enter Email..." name="email" required> 
             <br>
             <br>
               <label for="phone" style="font-size: 35px; color: white;">Phone Number</label>
-                <input style="width: 100%; border-radius: 40px; height: 60px;" type="tel" id="phone" name="phone" placeholder="Enter Phone Number...">
+                <input style="width: 100%; border-radius: 40px; height: 60px; font-size: 40px;" type="tel" id="phone" name="phone" placeholder="Enter Phone Number...">
             <br>
             <br>
               <label for="Address" style="font-size: 35px; color: white;">Address</label>
-              <textarea style="font-size: 20px; height:120px;" id="address" name="address" placeholder="Write Your Address..."></textarea>
+              <textarea style="font-size: 40px; height:120px;" id="address" name="address" placeholder="Write Your Address..."></textarea>
             
               <input style="font-size: 50px; border-radius: 40px;" type="submit" value="Purchase">
             
@@ -129,16 +135,13 @@
 <!------------------Purchase php------------------>
 <?php
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get the form data
+  
     $firstname = $_POST["firstname"];
     $lastname = $_POST["lastname"];
     $email = $_POST["email"];
     $phone = $_POST["phone"];
     $address = $_POST["address"];
 
-    // Validate the form data (optional)
-
-    // Connect to the database
     $servername = "localhost";
     $username = "root";
     $password = "";
@@ -150,10 +153,9 @@
             
     }
 
-    // Insert the new order into the database
     $sql = "INSERT INTO user_details (firstname, lastname, email, phone, address) VALUES ('$firstname', '$lastname', '$email', '$phone', '$address')";
     if ($conn->query($sql) === TRUE) {
-      echo "New order created successfully";
+      echo "<script>window.open('HomePage.php','_self')</script>";
     } else {
       echo "Error: " . $sql . "<br>" . $conn->error;
     }

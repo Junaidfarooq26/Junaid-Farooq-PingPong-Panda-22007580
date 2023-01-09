@@ -121,19 +121,19 @@
   <div class="row">
     
     <div class="column">
-      <a href="Manga Page.html"><img src="MANGA.png" alt="Chainsawman mangas" style="width:100%" height="78%" border: 5px solid #555;></a>
-      <a href="Manga Page.html"><strong><div class="card" style="width: 100%"><b>After a High Demand ChainSAW Man manga's are Available again so Act Fast Before they Sellout</b></div></strong></a>
+      <a href="Manga Page.php"><img src="MANGA.png" alt="Chainsawman mangas" style="width:100%" height="78%" border: 5px solid #555;></a>
+      <a href="Manga Page.php"><strong><div class="card" style="width: 100%"><b>After a High Demand ChainSAW Man manga's are Available again so Act Fast Before they Sellout</b></div></strong></a>
     </div>
     
     <div class="column">
-      <a href="Magazine Page.html"><img src="Magazines.png" alt="magaziine cover" style="width:100%" height="78%"></a>
-      <a href="Magazine Page.html"><strong><div class="card" style="width: 100%"><b>New Vogue and Empire Magazine Available Featuring Harrison Ford Now Available</b></div></strong></a>
+      <a href="Magazine Page.php"><img src="Magazines.png" alt="magaziine cover" style="width:100%" height="78%"></a>
+      <a href="Magazine Page.php"><strong><div class="card" style="width: 100%"><b>New Vogue and Empire Magazine Available Featuring Harrison Ford Now Available</b></div></strong></a>
     </div>
 
 
     <div class="column">
-      <a href="Comic Page.html"><img src="comics.png" alt="Comic" style="width:100%" height="78%"></a>
-      <a href="Comic Page.html"><strong><div class="card" style="width: 100%"><b>Ant-man and Superman Classic Comics are back in Stock for a Limited Time Only so Get Yours Now</b></div></strong></a>
+      <a href="Comic Page.php"><img src="comics.png" alt="Comic" style="width:100%" height="78%"></a>
+      <a href="Comic Page.php"><strong><div class="card" style="width: 100%"><b>Ant-man and Superman Classic Comics are back in Stock for a Limited Time Only so Get Yours Now</b></div></strong></a>
     </div>
 
   </div>  

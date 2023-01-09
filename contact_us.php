@@ -40,7 +40,7 @@
   
   </div>
 
-    <!--------------------------- Comic Cover photo ------------------------------------------>
+    <!--------------------------- Contact us photo ------------------------------------------>
 
     <div class="Banner">
 		<a href="" class="active"><img src="contact us cover.png" alt="banner" style="width: 100%" height="400"></a>
@@ -128,10 +128,10 @@
  <!-------------------------------- Bottom Navbar ------------------------------------------>
 
   <div class="header" id="myheader">
-    <a href="About Us.html" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 
-    <a href="Comic Page.html"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
-    <a href="Manga Page.html"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
-    <a href="Magazine Page.html"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
+    <a href="About Us.php" class="active"><img src="information.png" width="50" height="50"> <b>About Us</b></a> 
+    <a href="Comic Page.php"><img src="books.png" width="50" height="50"> <b>Comic</b></a>
+    <a href="Manga Page.php"><img src="books.png" width="50" height="50"> <b>Manga</b></a>
+    <a href="Magazine Page.php"><img src="books.png" width="50" height="50"> <b>Magazines</b></a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
 
@@ -149,11 +149,11 @@
   </div>
   <hr class="rounded">
     <br>
-    <h1><a style="color:white;text-decoration: none;" href="contact_us.html">Contact Us</a></h1>
+    <h1><a style="color:white;text-decoration: none;" href="contact_us.php">Contact Us</a></h1>
     <br>
-    <h1><a style="color:white;text-decoration: none;" href="Terms of Use.html">Terms of Use</a></h1>
+    <h1><a style="color:white;text-decoration: none;" href="Terms of Use.php">Terms of Use</a></h1>
     <br>
-    <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.html">Privacy Policy</a></h1>
+    <h1><a style="color:white;text-decoration: none;" href="Privacy Policy.php">Privacy Policy</a></h1>
     <br>
     <hr class="rounded">
     <h3>Copyright 2022-2023 by King Kong Fu. All Right Reserved</h3>

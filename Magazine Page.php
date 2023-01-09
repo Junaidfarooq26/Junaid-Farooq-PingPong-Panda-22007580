@@ -30,7 +30,7 @@
       <a href="HomePage.php" class="active"><img src="Pingpong panda logo v3.2.png" width="150" height="150"></a>
     </div>
   
-    <a href="Account Page.php"><img src="account.png" width="50" height="50"> <b>Account</b></a>
+    <a href="register.php"><img src="account.png" width="50" height="50"> <b>Register</b></a>
   
     <div class="uppernav-right">
       <a href="login.php"><b>Login</b> <img src="login logo.png" width="50" height="50"></a>
@@ -40,7 +40,7 @@
 
   <br>
 
-  <!--------------------------- Comic Cover photo ------------------------------------------>
+  <!--------------------------- magazine Cover photo ------------------------------------------>
 
   <div class="Banner">
 		<a href="" class="active"><img src="magazine page.png" alt="banner" style="width: 100%" height="400"></a>
@@ -203,6 +203,8 @@
     <a href="https://twitter.com/PingP0ng_Panda"><img style="margin-left: 50px" src="twitter.png" width="50" height="50"></a>
   </div>
   <hr class="rounded">
+    <br>
+    <h1><a style="color:white;text-decoration: none;" href="contact_us.php">Contact Us</a></h1>
     <br>
     <h1><a style="color:white;text-decoration: none;" href="Terms of Use.php">Terms of Use</a></h1>
     <br>

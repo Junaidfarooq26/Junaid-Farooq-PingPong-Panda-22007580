@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Account page</title>
+<title>login page</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -43,7 +43,7 @@
 
   <br>
 
-      <!--------------------------- Comic Cover photo ------------------------------------------>
+      <!--------------------------- account page photo ------------------------------------------>
 
       <div class="Banner">
         <a><img src="account page cover.png" alt="banner" style="width: 100%" height="300"></a>
@@ -61,25 +61,20 @@
 
 <!--------------------- The login page HTML code ---------------------------------------> 
 
-<div class="container mt-3">
-  <h2>Login</h2>
+
+<center><h1 style="font-size: 60px; color: white; background-color: #E3CD81FF; 
+border-radius: 40px; padding:20px;">Login</h1></center>
+<br>
   <form action="Login.php" method="post">
-    <div class="mb-3 mt-3">
-      <label for="">Username:</label>
-      <input type="username" class="form-control" id="username" placeholder="Enter username" name="username">
+    <div class="account">
+      <label for="">Username :</label>
+      <input style="font-size: 35px;" type="username" class="form-control" id="username" placeholder="Enter username" name="username">
+   
+      <label for="pwd">Password :</label>
+      <input style="font-size: 35px;" type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    <button type="submit" name="submit">Login</button>
     </div>
-    <div class="mb-3">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-    </div>
-    <div class="form-check mb-3">
-      <label class="form-check-label">
-        <input class="form-check-input" type="checkbox" name="remember"> Remember me
-      </label>
-    </div>
-    <button type="submit"  name="submit" class="btn btn-primary">Submit</button>
   </form>
-</div>
  
 
 <br>
@@ -134,7 +129,6 @@
 
 <?php
 
- 
 $dbcon=mysqli_connect("localhost","root","");  
 mysqli_select_db($dbcon,"pingpong");    
   
@@ -151,21 +145,20 @@ if(isset($_POST['submit']))
      if(mysqli_num_rows($run) )  
     {  
 session_start(); 
-        $_SESSION['username']=$username;//here session is used and value of $uname store in $_SESSION.  
+        $_SESSION['username']=$username; 
         echo "<script>window.open('HomePage.php','_self')</script>";  
-			
-  
     }  
     else  
-    { 
-            
+    {    
       echo "<script>alert('Username or password is incorrect!')</script>";  
     }  
 }
 else{
-	
-	  
+
 }	
 
-
 ?>
+
+
+
+
